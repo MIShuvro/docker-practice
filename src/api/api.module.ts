@@ -8,7 +8,7 @@ import { DatabaseModule } from '@common/database/database.module';
   imports: [ConfigModule.forRoot({
     envFilePath: '.env',
     isGlobal: true
-  }), DatabaseModule, IndexModule],
+  }), IndexModule],
   controllers: [],
   providers: []
 })
